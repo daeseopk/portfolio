@@ -1,0 +1,34 @@
+.TitleContainer {
+   position: relative;
+   display: flex;
+   top: 350px;
+   flex-direction: column;
+   width: 80%;
+   height: 240px;
+   transition: 0.5s ease all;
+   cursor: none;
+   mix-blend-mode: difference;
+}
+.TitleWrapper {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 50%;
+}
+#effect {
+   background: #cf0a52;
+   background: linear-gradient(to right, #cf0a52 0%, #cf810c 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.TitleWrapper h1 {
+   position: relative;
+   margin: 0;
+   top: 20px;
+   height: fit-content;
+   opacity: 0;
+   color: white;
+   font-size: 100px;
+   margin-right: 20px;
+   transition: 0.5s ease all;
+}

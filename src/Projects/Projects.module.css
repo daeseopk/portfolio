@@ -1,0 +1,63 @@
+.ProjectsContainer {
+   position: relative;
+   display: flex;
+   width: 80%;
+   top: 1290px;
+   height: 750px;
+   justify-content: space-around;
+   opacity: 0;
+}
+.CardWrapper {
+   display: flex;
+   flex-direction: column;
+   width: 304px;
+   height: 256px;
+   padding: 40px;
+   border-radius: 15px;
+   background-color: rgb(31, 31, 31);
+   text-align: left;
+}
+.CardWrapper h1 {
+   margin: 0;
+   font-size: 20px;
+   color: white;
+}
+.cardMainText {
+   margin: 0;
+   font-size: 17px;
+   color: rgb(161, 161, 160);
+}
+.CardButtonContainer {
+   display: flex;
+   position: relative;
+   top: 120px;
+   width: 100%;
+   height: 40px;
+}
+.ButtonWrapper {
+   display: flex;
+   padding: 10px;
+   align-items: center;
+   background-color: rgb(113, 113, 122);
+   width: 100px;
+   margin-right: 20px;
+   height: 20px;
+   border-radius: 18px;
+   cursor: pointer;
+   transition: 0.3s ease all;
+}
+.ButtonWrapper:hover {
+   background-color: rgb(113, 113, 122);
+   transform: scale(1.07);
+}
+.ButtonWrapper p {
+   margin: 0;
+   font-size: 16px;
+   font-weight: 700;
+}
+.icon {
+   width: 15px;
+   height: 15px;
+   margin-left: 10px;
+   margin-right: 7px;
+}

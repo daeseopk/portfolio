@@ -1,0 +1,26 @@
+:root {
+   --height_title3: 220px;
+}
+.TitleContainer {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   top: 910px;
+   width: 80%;
+   height: var(--height_title3);
+   cursor: none;
+   mix-blend-mode: difference;
+}
+.TitleParagraphWrapper {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: calc(var(--height) / 3);
+}
+.TitleParagraphWrapper h1 {
+   margin: 0;
+   font-size: 3.75rem;
+   color: white;
+   margin-right: 15px;
+   opacity: 0;
+}

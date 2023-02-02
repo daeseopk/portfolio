@@ -1,0 +1,29 @@
+.TopNavContainer {
+   position: relative;
+   width: 80%;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+}
+.TopNavButtonWrapper {
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding-left: 20px;
+   padding-right: 20px;
+   width: 280px;
+   height: inherit;
+   background-color: black;
+   z-index: 2;
+}
+.TopNavButton {
+   color: white;
+   font-size: 18px;
+   font-weight: 600;
+   cursor: pointer;
+   transition: 0.3s ease all;
+}
+.TopNavButton:hover {
+   scale: 1.1;
+}

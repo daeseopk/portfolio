@@ -1,0 +1,35 @@
+:root {
+   --height: 250px;
+}
+.Title2Container {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   top: 500px;
+   width: 80%;
+   height: var(--height);
+   transition: 0.5s ease all;
+   cursor: none;
+   color: white;
+   mix-blend-mode: difference;
+   opacity: 0;
+}
+.TitleParagraphWrapper {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: calc(var(--height) / 4);
+}
+.TitleParagraphWrapper h1 {
+   margin: 0;
+   font-size: 3.75rem;
+}
+#effect {
+   margin: 0;
+   margin-left: 15px;
+   margin-right: 15px;
+   background: #cf0a52;
+   background: linear-gradient(to right, #cf0a52 0%, #cf810c 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}

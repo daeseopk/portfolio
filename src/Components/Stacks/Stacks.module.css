@@ -1,0 +1,60 @@
+:root {
+   --height_Stacks: 400px;
+}
+.StacksContainer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   position: relative;
+   top: 830px;
+   width: 70%;
+   height: var(--height_Stacks);
+}
+.StackLineWrapper1 {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   height: calc(var(--height_Stacks) / 3);
+   mix-blend-mode: difference;
+   opacity: 0;
+}
+.StackLineWrapper2 {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   height: calc(var(--height_Stacks) / 3);
+   mix-blend-mode: difference;
+   opacity: 0;
+}
+.IconWrapper {
+   width: fit-content;
+   height: fit-content;
+}
+.square {
+   width: 90px;
+   height: 90px;
+   border-radius: 15px;
+}
+.rectangle {
+   width: 170px;
+   height: 100px;
+}
+#mongodb {
+   width: 170px;
+   height: 170px;
+}
+#react,
+#javascript,
+#typescript,
+#redux,
+#express,
+#socketio,
+#aws {
+   filter: invert(100%);
+}
+#nodejs {
+   width: 170px;
+   height: 170px;
+}
