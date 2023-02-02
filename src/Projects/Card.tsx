@@ -22,7 +22,11 @@ export default function Card({ title, body, github, service }: CardProp) {
          <Line />
          <p className={styles.cardMainText}>{body}</p>
          <div className={styles.CardButtonContainer}>
-            <div className={styles.ButtonWrapper}>
+            <div
+               onClick={() => {
+                  window.open(github);
+               }}
+               className={styles.ButtonWrapper}>
                <img
                   className={styles.icon}
                   src={require("../Icons/github_icon.png")}

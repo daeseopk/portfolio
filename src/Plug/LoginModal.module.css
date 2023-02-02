@@ -1,0 +1,82 @@
+.Icon {
+   position: absolute;
+   width: 70px;
+   height: 70px;
+   top: 40px;
+   left: 50%;
+   transform: translate(-50%, 0);
+   border-radius: 50px;
+   box-shadow: 4px 4px 20px 0 rgba(16, 16, 16, 0.2);
+}
+.Login_BodyContainer {
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, 0);
+   width: 80%;
+   text-align: left;
+   height: 320px;
+}
+.Login_BodyContainer p {
+   font-size: 15px;
+   margin: 0px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-weight: 700;
+   color: rgb(151, 202, 219);
+}
+.Login_BodyContainer input {
+   font-size: 17px;
+   font-weight: 700;
+}
+.SignUpWrapper {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+.Login_Input {
+   font-size: 18px;
+   padding-left: 10px;
+   width: 350px;
+   height: 55px;
+   border: none;
+   outline: none;
+   border-radius: 10px;
+   background-color: #f0f0f3;
+   box-shadow: 3px 3px 8px 3px rgba(16, 16, 16, 0.1);
+}
+.ThinBlockWrapper {
+   margin-top: 5px;
+   display: flex;
+   align-items: center;
+}
+.CloseBtn {
+   position: absolute;
+   left: 90%;
+   top: 3%;
+   width: 16.3px;
+   height: 16.3px;
+   border-radius: 5px;
+   box-shadow: -12px -12px 20px 0 #fff;
+   background-color: #f0f0f3;
+   padding: 4.35px;
+   cursor: pointer;
+}
+.SignupButton {
+   cursor: pointer;
+   transform: none;
+   animation-name: shake;
+   animation-iteration-count: infinite;
+   animation-duration: 1.2s;
+}
+@keyframes shake {
+   10% {
+      transform: rotate(7deg);
+   }
+   20% {
+      transform: rotate(-7deg);
+   }
+   40% {
+      transform: rotate(0deg);
+   }
+}

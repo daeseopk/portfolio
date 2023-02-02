@@ -33,13 +33,17 @@ export default function TopNav() {
             .to("#Line", { duration: 0.3, width: "100%" });
       }, 1000);
    }, []);
-
+   const onClickButton = () => {
+      window.scrollTo({ top: 2600, behavior: "smooth" });
+   };
    return (
       <div className={styles.TopNavContainer}>
          <TopNavWrapper id="Wrapper">
             <Line id="Line" />
             <div id="NavWrapper" className={styles.TopNavButtonWrapper}>
-               <span className={styles.TopNavButton}>Projects</span>
+               <span onClick={onClickButton} className={styles.TopNavButton}>
+                  Projects
+               </span>
                <span className={styles.TopNavButton}>Resume</span>
                <span className={styles.TopNavButton}>Contact</span>
             </div>
