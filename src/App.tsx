@@ -27,7 +27,7 @@ function App() {
    });
    const [scrollY, setScrollY] = useState<scrollPosition>({ scrollY: null });
    const [currentStack, setCurrentStack] = useState<string>("");
-
+   const [isHoverName, setIsHoverName] = useState<boolean>(false);
    useEffect(() => {
       const onScroll = () => {
          setScrollY({ scrollY: window.scrollY });
@@ -88,10 +88,13 @@ function App() {
    const onMouseLeave = (e: MouseEvent) => {
       gsap.to("#cursor", { width: "0px", height: "0px", duration: 0.1 });
    };
-   // console.log(currentStack);
    return (
       <div onMouseMove={mouseMoveHandler} className="App">
-         <Cursor currentStack={currentStack} mousePosition={mousePosition} />
+         <Cursor
+            isHoverName={isHoverName}
+            currentStack={currentStack}
+            mousePosition={mousePosition}
+         />
          <TopNav />
          <Title1 onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} />
          <Led />
@@ -99,6 +102,7 @@ function App() {
             scrollY={scrollY.scrollY}
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
+            setIsHoverName={setIsHoverName}
          />
          <Stacks setCurrentStack={setCurrentStack} />
          <Title3

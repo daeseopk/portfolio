@@ -1,12 +1,3 @@
-.ProjectsContainer {
-   position: relative;
-   display: flex;
-   width: 80%;
-   top: 900px;
-   height: 750px;
-   justify-content: space-around;
-   opacity: 0;
-}
 .CardWrapper {
    display: flex;
    flex-direction: column;
@@ -60,4 +51,20 @@
    height: 15px;
    margin-left: 10px;
    margin-right: 7px;
+}
+.ProjectsContainer {
+   position: relative;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 80px;
+   row-gap: 80px;
+   width: fit-content;
+   top: 900px;
+   height: 750px;
+   opacity: 0;
+}
+@media (max-width: 1600px) {
+   .ProjectsContainer {
+      grid-template-columns: repeat(2, 1fr);
+   }
 }

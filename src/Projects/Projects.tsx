@@ -6,6 +6,12 @@ export default function Projects() {
    return (
       <div id="ProjectContainer" className={styles.ProjectsContainer}>
          <Card
+            title="Portfolio / Front End Developer"
+            body="이거지롱"
+            github="https://github.com/daeseopk/portfolio"
+            service="https://daeseopk.github.io/portfolio/"
+         />
+         <Card
             title="ChilLin / Front End Developer"
             body="블라블라 어쩍ㄹ구 저쩌구"
             github="https://github.com/daeseopk/ChilLin"

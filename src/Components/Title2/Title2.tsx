@@ -6,12 +6,14 @@ interface Title2Prop {
    onMouseEnter: (e: MouseEvent) => void;
    onMouseLeave: (e: MouseEvent) => void;
    scrollY: number | null;
+   setIsHoverName: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export default function Title2({
    onMouseEnter,
    onMouseLeave,
    scrollY,
+   setIsHoverName,
 }: Title2Prop) {
    useEffect(() => {
       if (scrollY) {
@@ -24,6 +26,7 @@ export default function Title2({
          gsap.to("#ContainerTitle2", { opacity: opaicty, duration: 0.5 });
       }
    }, [scrollY]);
+
    return (
       <div
          id="ContainerTitle2"
@@ -31,7 +34,19 @@ export default function Title2({
          onMouseLeave={onMouseLeave}
          className={styles.Title2Container}>
          <div className={styles.TitleParagraphWrapper}>
-            <h1>I'm DaeSeop Kim,</h1>
+            <h1 style={{ marginRight: "15px" }}>I'm</h1>
+            <h1
+               onClick={() => window.open("https://github.com/daeseopk")}
+               id={styles.TitleName}
+               onMouseEnter={() => {
+                  setIsHoverName(true);
+               }}
+               onMouseLeave={() => {
+                  setIsHoverName(false);
+               }}>
+               DaeSeop Kim
+            </h1>
+            <h1>,</h1>
          </div>
          <div className={styles.TitleParagraphWrapper}>
             <h1>a Front End</h1>

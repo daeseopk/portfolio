@@ -28,14 +28,37 @@ const Cursor = styled.div<mousePositionForStyledComponent>`
 interface mousePositionProp {
    mousePosition: mousePosition;
    currentStack: string;
+   isHoverName: boolean;
 }
 
 const CursorComponent = ({
    mousePosition,
    currentStack,
+   isHoverName,
 }: mousePositionProp) => {
+   console.log(isHoverName);
    var { x, y } = mousePosition;
-   if (currentStack) {
+   if (isHoverName) {
+      return (
+         <Cursor
+            backgroundColor="rgba(207, 10, 82)"
+            translateY={-50}
+            x={x}
+            y={y}
+            id="cursor">
+            <span
+               style={{
+                  position: "relative",
+                  fontSize: "18px",
+                  color: "white",
+                  top: "-30px",
+                  fontWeight: "700",
+               }}>
+               Click to go to Github
+            </span>
+         </Cursor>
+      );
+   } else if (currentStack) {
       return (
          <Cursor
             backgroundColor="white"

@@ -33,3 +33,9 @@
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
+#TitleName {
+   transition: 0.5s ease all;
+}
+#TitleName:hover {
+   color: yellow;
+}
