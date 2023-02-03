@@ -48,7 +48,11 @@ export default function Preview1({
                onMouseEnter={onMouseEnter}
                onMouseLeave={onMouseLeave}
                className={styles.previewTitleWrapper}>
-               <h1 className={styles.previewTitle}>ChilLin</h1>
+               <img
+                  id={styles.Logo_chillin}
+                  src={require("../../Icons/Logo_chillin.png")}
+                  alt="chillin"
+               />
             </div>
             <div className={styles.previewBodyWrapper}>
                <Slider_home />
@@ -59,7 +63,11 @@ export default function Preview1({
                onMouseEnter={onMouseEnter}
                onMouseLeave={onMouseLeave}
                className={styles.previewTitleWrapper}>
-               <h1 className={styles.previewTitle}>Plug</h1>
+               <img
+                  id={styles.Logo_plug}
+                  src={require("../../Icons/Logo_plug.png")}
+                  alt="plug"
+               />
             </div>
             <div id="more" className={styles.More}>
                <h1>That Projects</h1>

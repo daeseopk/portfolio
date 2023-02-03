@@ -137,7 +137,9 @@ export default function Slider_home() {
       }
    };
    const onClick_viewmore = (index, movie, e) => {
-      window.location.href = `https://movieweb-2b841.firebaseapp.com/Detail/id=${movie.id}`;
+      window.open(
+         `https://movieweb-2b841.firebaseapp.com/Detail/id=${movie.id}`
+      );
    };
    // 부모 element의 이벤트를 무시하고, 본인 이벤트만 수행되게 해주는 함수
    function prevent(fn, defaultOnly) {

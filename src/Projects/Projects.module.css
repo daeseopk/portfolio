@@ -16,6 +16,8 @@
 .cardMainText {
    margin: 0;
    font-size: 17px;
+   font-weight: 400;
+   line-height: 25px;
    color: rgb(161, 161, 160);
 }
 .CardButtonContainer {

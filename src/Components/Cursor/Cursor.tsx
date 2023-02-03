@@ -54,7 +54,7 @@ const CursorComponent = ({
                   top: "-30px",
                   fontWeight: "700",
                }}>
-               Click to go to Github
+               Click to move Github!
             </span>
          </Cursor>
       );

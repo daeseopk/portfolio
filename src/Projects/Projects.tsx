@@ -7,7 +7,7 @@ export default function Projects() {
       <div id="ProjectContainer" className={styles.ProjectsContainer}>
          <Card
             title="Portfolio / Front End Developer"
-            body="이거지롱"
+            body="React, Typescript, Styled Component, GSAP"
             github="https://github.com/daeseopk/portfolio"
             service="https://daeseopk.github.io/portfolio/"
          />

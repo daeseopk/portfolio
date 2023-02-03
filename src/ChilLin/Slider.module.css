@@ -35,7 +35,7 @@
 }
 .Summary_Title {
    color: white;
-   font-size: 25px;
+   font-size: 30px;
    font-weight: 900;
    margin-left: 40px;
    margin-bottom: 30px;
@@ -48,7 +48,7 @@
    padding-left: 5px;
    padding-right: 5px;
    color: white;
-   font-size: 12px;
+   font-size: 15px;
    margin-right: 10px;
    background-color: rgba(50, 50, 50, 0.6);
    border-radius: 10px;
@@ -58,7 +58,7 @@
    margin-left: 40px;
    margin-right: 20px;
    color: white;
-   font-size: 12px;
+   font-size: 15px;
    overflow-y: scroll;
 }
 .Summary_viewmore {
