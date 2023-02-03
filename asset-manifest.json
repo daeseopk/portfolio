@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d1b4d39c.css",
-    "main.js": "/portfolio/static/js/main.c1079b58.js",
+    "main.css": "/portfolio/static/css/main.02549e8e.css",
+    "main.js": "/portfolio/static/js/main.112adea4.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/google.png": "/portfolio/static/media/google.2e1b92df95e4d99450bd.png",
     "static/media/express.png": "/portfolio/static/media/express.7ea35f4161e0f62fa2dc.png",
+    "static/media/Logo_chillin.png": "/portfolio/static/media/Logo_chillin.2707144b274a8432939d.png",
     "static/media/arrow.png": "/portfolio/static/media/arrow.fde608a221791a60f8b1.png",
     "static/media/git.png": "/portfolio/static/media/git.b5723d2fd09355d535e5.png",
     "static/media/react.png": "/portfolio/static/media/react.be506ef9591809b8f99b.png",
@@ -17,14 +18,15 @@
     "static/media/github_icon.png": "/portfolio/static/media/github_icon.31b4f10e5e554228d89a.png",
     "static/media/python.png": "/portfolio/static/media/python.04ddea1b43164f05b756.png",
     "static/media/closeBtn.png": "/portfolio/static/media/closeBtn.a697a6747966fdae689a.png",
+    "static/media/Logo_plug.png": "/portfolio/static/media/Logo_plug.630a60fb3688eaee58d3.png",
     "static/media/socketio.png": "/portfolio/static/media/socketio.378883c047d5f653b3bf.png",
     "index.html": "/portfolio/index.html",
-    "main.d1b4d39c.css.map": "/portfolio/static/css/main.d1b4d39c.css.map",
-    "main.c1079b58.js.map": "/portfolio/static/js/main.c1079b58.js.map",
+    "main.02549e8e.css.map": "/portfolio/static/css/main.02549e8e.css.map",
+    "main.112adea4.js.map": "/portfolio/static/js/main.112adea4.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1b4d39c.css",
-    "static/js/main.c1079b58.js"
+    "static/css/main.02549e8e.css",
+    "static/js/main.112adea4.js"
   ]
 }
