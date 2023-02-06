@@ -25,9 +25,9 @@ export default function Preview1({
             gsap.to("#previewContainer2", { opacity: 0, duration: 1, y: 40 });
          } else if (scrollY >= 3000 && scrollY < 3200) {
             gsap.to("#previewContainer2", { opacity: 1, duration: 1, y: -40 });
-         } else if (scrollY < 4000) {
+         } else if (scrollY < 3700) {
             gsap.to("#more", { opacity: 0, duration: 0 });
-         } else if (scrollY >= 4000) {
+         } else if (scrollY >= 3700) {
             gsap.to("#more", { opacity: 1, duration: 0 });
          }
       }

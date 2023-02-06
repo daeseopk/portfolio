@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 interface CardProp {
    title: string;
-   body: string;
+   body: Array<string>;
    github: string;
    service: string;
 }
@@ -20,7 +20,7 @@ export default function Card({ title, body, github, service }: CardProp) {
       <div className={styles.CardWrapper}>
          <h1>{title}</h1>
          <Line />
-         <p className={styles.cardMainText}>{body}</p>
+         <p className={styles.cardMainText}></p>
          <div className={styles.CardButtonContainer}>
             <div
                onClick={() => {
@@ -34,7 +34,11 @@ export default function Card({ title, body, github, service }: CardProp) {
                />
                <p>Github</p>
             </div>
-            <div className={styles.ButtonWrapper}>
+            <div
+               onClick={() => {
+                  window.open(service);
+               }}
+               className={styles.ButtonWrapper}>
                <img
                   className={styles.icon}
                   src={require("../Icons/service_icon.png")}

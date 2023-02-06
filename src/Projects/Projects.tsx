@@ -7,21 +7,31 @@ export default function Projects() {
       <div id="ProjectContainer" className={styles.ProjectsContainer}>
          <Card
             title="Portfolio / Front End Developer"
-            body="React, Typescript, Styled Component, GSAP"
+            body={["React", "Typescript", "GSAP", "StyledComponent"]}
             github="https://github.com/daeseopk/portfolio"
             service="https://daeseopk.github.io/portfolio/"
          />
          <Card
             title="ChilLin / Front End Developer"
-            body="블라블라 어쩍ㄹ구 저쩌구"
+            body={["React", "Javascript", "StyledComponent", "firebase"]}
             github="https://github.com/daeseopk/ChilLin"
-            service="wait"
+            service="https://movieweb-2b841.firebaseapp.com/Home"
          />
          <Card
             title="Plug / Full Stack Developer"
-            body="으라린ㅁㄹㅇ니무ㅏㄹㄴ어러러럴"
+            body={[
+               "React",
+               "Javascript",
+               "StyledComponent",
+               "Express",
+               "Node",
+               "Redux",
+               "MongoDB",
+               "Socketio",
+               "AWS",
+            ]}
             github="https://github.com/daeseopk/Plug-Front"
-            service="wait"
+            service="http://3.34.95.208:3000"
          />
       </div>
    );
