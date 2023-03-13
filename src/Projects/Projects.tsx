@@ -15,7 +15,7 @@ export default function Projects() {
             title="ChilLin / Front End Developer"
             body={["React", "Javascript", "StyledComponent", "firebase"]}
             github="https://github.com/daeseopk/ChilLin"
-            service="https://movieweb-2b841.firebaseapp.com/Home"
+            service=""
          />
          <Card
             title="Plug / Full Stack Developer"
@@ -31,7 +31,7 @@ export default function Projects() {
                "AWS",
             ]}
             github="https://github.com/daeseopk/Plug-Front"
-            service="http://3.34.95.208:3000"
+            service=""
          />
       </div>
    );
